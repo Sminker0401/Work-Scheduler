@@ -1,35 +1,32 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1;
+  background-color: lightcoral;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  padding: 4px 10px;
+  color: coral;
+  border-left: 1px solid black;
+  padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: darkslategrey;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
-ul.event-group {
-  min-height: 75px;
-  margin: 0;
-  list-style-type: none;
-}
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -41,63 +38,35 @@ ul.event-group {
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: solid black 1px;
-  padding-top: 15px;
+  background-color: rgb(99, 96, 96);
+  color: #76dcee;
+  border-top: 1px dashed #000000;
 }
 
 .past {
-  background-color: lightyellow;
+  background-color: #d3d3d3;
   color: white;
-  border: black 1px solid;
 }
 
 .present {
-  background-color: lightsteelblue;
+  background-color: #ff6961;
   color: white;
-  border: black 1px solid;
 }
 
 .future {
-  background-color: lightgray;
+  background-color: #77dd77;
   color: white;
-  border: black 1px solid;
 }
 
-.save-delete {
-  border: 1px solid black;
+.saveBtn {
+  border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: darkslateblue;
-  color: white;
-  text-align: center;
-  padding-top: 25px;
+  background-color: #76dcee;
+  color: black;
 }
-.save-delete i.fa-save{
-  font-size: 30px;
-}
-.save-delete i.fa-save:hover {
-  font-size: 30px;
-  color: red;
-  
-}
-.save-delete i.fa-trash{
-  font-size: 18px;
-  padding-left: 8px;
-}
-.save-delete i.fa-trash:hover {
-  font-size: 20px;
-  color: red;
 
-}
-.event-group{
-  padding: 2px 0 0 2px;
-}
-.events{
-  margin: 0;
-  height: 75px;
-  color: #000000;
-  font-size: 14px;
-  line-height: 22px;
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
 }
