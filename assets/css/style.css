@@ -2,14 +2,14 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   line-height: 1;
-  background-color: lightcoral;
+  background-color: rgb(223, 211, 190);
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: coral;
+  color: darkslategrey;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -44,17 +44,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: rgb(199, 130, 199);
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: lightgrey;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: rgb(123, 105, 172);
   color: white;
 }
 
